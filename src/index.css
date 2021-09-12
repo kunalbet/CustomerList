@@ -1,0 +1,62 @@
+/* reset browser default spacing */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/** Defined global styles **/
+body {
+  font-family: "AvenirLTPro-Roman", Arial, Tahoma, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-width: 320px;
+  background: #f9f9f9;
+  width: 100%;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+h1 {
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+}
+
+h2 {
+  font-family: "AvenirLTPro-Black", sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "AvenirLTPro-Heavy", sans-serif;
+}
+
+label > span {
+  color: #3e3c3b !important;
+}
+
+.justified-text {
+  text-align: justify;
+}
+
+input:disabled {
+  background-color: #f4f5f5;
+}
+
+/*
+  Hide x that appears of MS inputs
+*/
+input::-ms-clear {
+  display: none;
+}
