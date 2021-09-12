@@ -1,4 +1,5 @@
 import { Form } from "formik";
+import AccordionDetails from '@material-ui/core/AccordionDetails';
 import styled from "styled-components";
 
 export const StyledForm = styled(Form)`
@@ -29,4 +30,20 @@ export const StyledAddButton = styled.button`
   border: none;
   border-radius: 4px;
   font-size: 16px;
+`;
+
+export const StyledErrorDiv = styled.div`
+  color: red;
+  font-size: 14px;
+  margin: -10px 0 20px 0;
+`;
+
+export const StyledFormDiv = styled.div`
+  margin: 10px 0 20px 0;
+  display: grid;
+  flex-flow: column;
+`;
+
+export const StyledAccordionDetails = styled(AccordionDetails)`
+  flex-flow: column;
 `;

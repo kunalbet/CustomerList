@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Customers /> should render a <Customers /> 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <table
+      class="MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root sc-bdfBQB bYKAzC MuiTableRow-head"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head"
+            scope="col"
+          >
+            <b>
+              Sr.No
+            </b>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+            scope="col"
+          >
+            <b>
+              First Name
+            </b>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+            scope="col"
+          >
+            <b>
+              Last Name
+            </b>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+            scope="col"
+          >
+            <b>
+              Phone Number
+            </b>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+            scope="col"
+          >
+             
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root"
+          data-testid="customer-row"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-body"
+            role="cell"
+            scope="row"
+          >
+            1
+          </th>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+          >
+            Test
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+          >
+            Tester
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+          >
+            00000000
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+              data-testid="delete-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Delete
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
